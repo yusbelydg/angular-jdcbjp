@@ -1,3 +1,8 @@
 <p>
-product-alerts works!
+product-alerts works! 
+<br/> <br/> When The Phone XL price is over $700, so the "Notify Me" button appears on this product.
+</p>
+
+<p *ngIf="product.price > 700">
+  <button>Notify Me</button>
 </p>
